@@ -4,6 +4,7 @@
 // };
 
 // But instead we're going to implement it from scratch:
+
 var getElementsByClassName = function(className
 ) {
   // your code here
@@ -26,11 +27,3 @@ var getElementsByClassName = function(className
   recurseClassName(document);
   return output;
 };
-// Implement getElementsByClassName with your own function in src/getElementsByClassName.js, and make the specs pass, fixing them as necessary.
-//  You should use document.body, element.childNodes, and element.classList
-/*
-The Document.body property represents the <body> or <frameset> node of the current document, or null if no such element exists.
-
-The Node.childNodes read-only property returns a live NodeList of child nodes of the given element where the first child node is assigned index 0.
-*/
-
